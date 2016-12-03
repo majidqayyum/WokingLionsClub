@@ -1,0 +1,398 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Woking Lions Club</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet" />
+    <style>
+        body {
+            padding-top: 40px;
+        }
+
+        #WelcomeJumbo {
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#lions-navbar-collapse">
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#lions-navbar-collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button> <!--End button-->
+
+                <a class="navbar-brand pull-left active" href="Home.html">
+                    Home<span class="sr-only">(current)</span>
+                </a>
+            </div> <!--End navbar-header-->
+
+            <div class="collapse navbar-collapse" id="lions-navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="CharityRun.html">Charity Run</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="Events.html">Events</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            About Us
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="AboutUs.html#welcome">Welcome</a></li>
+                            <li><a href="AboutUs.html#objectives">Objectives</a></li>
+                            <li><a href="AboutUs.html#ethics">Ethics</a></li>
+                            <li><a href="AboutUs.html#meetings">Meetings</a></li>
+                            <li><a href="AboutUs.html#contactus">Contact Us</a></li>
+                        </ul>
+                    </li><!--End dropdown-->
+                </ul><!--End navbar-->
+            </div> <!--End navbar collapseable-->
+
+        </div> <!--End container-->
+    </nav> <!--End navbar-->
+    <!--Introduction-->
+    <div class="jumbotron" id="WelcomeJumbo">
+
+        <div class="container text-center">
+            <img id="brand-image" src="images/LionLogo_2c.gif" style="height:70px" />
+            <h1>Woking Lions Club</h1>
+            <h4>Helping those in need in our community</h4>
+            <div class="btn-group">                
+                <a href="https://mydonate.bt.com/charities/wokinglionsclub" class="btn btn-small btn-primary">Donate</a>                
+                <a href="AboutUs.html#contactus" class="btn btn-small btn-primary">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- News Gallery -->
+    <div id="news_gallery">
+        <section>
+            <div class="carousel slide" id="news-carousel" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#news-carousel" data-slide-to="0"></li>                    
+                    <li data-target="#news-carousel" data-slide-to="1"></li>
+                    <li data-target="#news-carousel" data-slide-to="2"></li>
+                    <li data-target="#news-carousel" data-slide-to="3"></li>
+                    <li data-target="#news-carousel" data-slide-to="4"></li>
+                    <li data-target="#news-carousel" data-slide-to="5"></li>
+                    <li data-target="#news-carousel" data-slide-to="6"></li>
+                    <li data-target="#news-carousel" data-slide-to="7"></li>
+                    <li data-target="#news-carousel" data-slide-to="8" class="active"></li>
+                </ol> <!--End carousel indicators-->
+
+                <div class="carousel-inner">
+
+                    <!--Project Wenceslas-->
+                    <div class="item">
+                        <img class="img-responsive center-block" src="images/WokingCAB.jpg" alt="Woking Citizen Adivce">
+                        <div class="carousel-caption">
+                            <h3>Raising funds for Citizen Advice Woking</h3>
+                            <p>Lions present a cheque to Citizen Advice Woking.</p>
+                            <a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">
+                                more...
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--Woking Lions Christmas Dinner-->
+                    <div class="item">
+                        <img class="img-responsive center-block" src="images/ChristmasDinner2015.jpg" alt="Christmas Dinner Moorcroft 2015" style="align">
+                        <div class="carousel-caption">
+                            <h3>Christmas Day Dinner for the Elderly</h3>
+                            <p>25th December 2015</p>
+                            <a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">
+                                more...
+                            </a>
+
+                        </div>
+                    </div> <!--End item active-->
+
+                    <!--Woking Lions Christmas Parcels-->
+                    <div class="item">
+                        <img class="img-responsive center-block" src="images/ChristmasParcels2015.jpg" alt="Christmas Parcels 2015" style="align">
+                        <div class="carousel-caption">
+                            <h3>Christmas Hampers for families in need.</h3>
+                            <p>Record breaking number of hampers delivered in 2015!</p>
+                            <a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">
+                                more...
+                            </a>
+
+                        </div>
+                    </div> 
+
+                    <!-- Woking Lions Raise funds for Air Ambulance -->
+                    <div class="item">
+                        <img class="img-responsive center-block" src="images/AirAmbulance.jpg" alt="Air Ambulance">
+                        <div class="carousel-caption">
+                            <h3>Surrey Air Ambulance</h3>
+                            <p>Woking Lions raising funds to assist their communities and to helping to save lives.</p>
+                            <a href="#collapse-4" data-toggle="collapse" data-parent="#accordion">
+                                more...
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!--LinkAble-->
+                    <div class="item">
+                        <img class="img-responsive center-block" src="images/LinkAble2.jpg" alt="Linkable">
+                        <div class="carousel-caption">
+                            <h3>Woking Lions Help LinkAble</h3>
+                            <p>Organising concerts to raise funds</p>
+                            <a href="#collapse-5" data-toggle="collapse" data-parent="#accordion">
+                                more...
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Waitrose Donations-->
+                    <div class="item">
+                        <img class="img-responsive center-block" src="images/WaitroseCommunityMatters.jpg" alt="Waitrose Community Matters">
+                        <div class="carousel-caption">
+                            <h3>Waitrose customers supporting Woking Lions</h3>
+                            <p>Community Matters</p>
+                            <a href="#collapse-6" data-toggle="collapse" data-parent="#accordion">
+                                more...
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!--Lions supporting Woking Hospice-->
+                    <div class="item">
+                        <img class="img-responsive center-block" src="images/WokingHospice.jpg" alt="Woking Hospice donation">
+                        <div class="carousel-caption">
+                            <h3>Woking Lions and Rotary supporting Woking Community Hospital</h3>
+                            <p>Providing funds for Wet Room.</p>
+                            <a href="#collapse-7" data-toggle="collapse" data-parent="#accordion">
+                                more...
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!--Volunteer for the lions-->
+                    <div class="item">
+                        <img class="img-responsive center-block" src="images/Volunteer.jpg" alt="Volunteer">
+                        <div class="carousel-caption">
+                            <h3>Volunteer with the Woking Lions</h3>
+                            <p>Help the needy in your community.</p>
+                            <a href="AboutUs.html#welcome">
+                                more...
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--Charity Run-->
+                    <div class="item active">
+                        <img class="img-responsive center-block" src="images/HorsellRun.jpg" alt="Lions Cross Country Run">
+                        <div class="carousel-caption">
+                            <h3>Woking Lions Cross Country Run</h3>
+                            <p>Raising Funds for Shopmobility<br> Scouts & Guides</p>
+                            
+                            <!--<a href="CharityRun.html">
+                                more...
+                            </a>-->
+                            <div class="btn-group">
+                                <a href="CharityRun.html" class="btn btn-small btn-primary">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <!--End carousel-inner-->
+
+                <a href="#news-carousel" class="left carousel-control" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#news-carousel" class="right carousel-control" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </section>
+    </div> <!--End news gallery-->
+    <!--News Panel-->
+    <div class="container">
+        <section>
+            <div class="page-header" id="news">
+                <h2>Latest News</h2>
+            </div>
+
+            <div class="panel-group" id="accordion">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">
+                                Woking Lions raising money for Citizen Advice Woking
+                            </a>
+                        </div> <!--End panel-title-->
+                    </div><!--panel-title-->
+                    <div id="collapse-1" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <p>Woking Lions President John Cooper and Fund Raising chairman Roger Chamberlain presenting a cheque for £3,584.15 to Woking Citizens Advice Manager Hazel Craig Waller and Margaret Gower, being part of the funds raised over Christmas from Project Wenceslas. The total raised this year was £4,584.15, and the remaining £1,000 is being split between Runnymede/Addlestone Office and Camberley C A Office which cover part of the area within Woking Lions district. John Cooper said "we would like to thank all who contributed to our Project Wenceslas Fund out of their Government Fuel payment, which is re-used to help those in fuel poverty by paying their gas or electricity bills during th winter months.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--End panel-->
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">
+                                Christmas Day 2015 Dinner for the Elderly at Moorcroft Day Centre
+                            </a>
+                        </div> <!--End panel-title-->
+                    </div><!--panel-title-->                    
+                <div id="collapse-2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                        <p>It is some thirty years since our Club became involved with the Christmas Day Meal started by Marjorie Richardson by providing financial help towards the costs of putting on the event on Christmas Day in the early 1980’s. Gradually over the years our help increased until we took over fully running the event more than fifteen years ago. Lion John Salter and his wife Helen were 2 of the earliest to be involved at that time.</p>
+
+                        <p>This year in the company of the Mayor, Cllr Derek McCrum and his wife Rosemary, we sat down some 55 guests, who together with all our volunteer helpers and drivers helped to make the day go well. All enjoyed an excellent turkey and trimmings meal provided by our chef Lydia Rise and her team for the 3rd year in succession. This was followed by an enjoyable game of Bingo ably led by Netty and Brian White, who also provided the photographs.</p>
+
+                        <p>This year we were once again grateful to Waitrose Store at Goldsworth Park for helping to provide goods and help for this year’s event, as well as Santa Claus! We were also grateful to Woking Community Transport for providing 2 of their busses, and to their 2 drivers who volunteered to help transport more than a 3rd of our guests to and from Moorcroft.</p>
+                        </div>
+                    </div>
+                </div> <!--End panel-->
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">
+                                Christmas Hampers for needy families in Woking.
+                            </a>
+                        </div> <!--End panel-title-->
+                    </div><!--panel-title-->
+                    <div id="collapse-3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>President John Cooper with our Christmas Hamper coordinator Pat Maguire with a couple of the hampers delivered immediately before Christmas 2015, which was our record breaking number of deliveries to local families in need. We delivered a total of 205 this year, which was 20 more than 2014, which itself was a record by more than 10, thus showing an increasing need for the help Woking Lions is giving each Christmas time.</p>
+                        </div>
+                    </div>
+                </div> <!--End panel-->
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapse-4" data-toggle="collapse" data-parent="#accordion">
+                                Air Ambulance launches the first 24-hour helicopter service in the country
+                            </a>
+                        </div> <!--End panel-title-->
+                    </div><!--panel-title-->
+                    <div id="collapse-4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>Air Ambulance teams have been attending about 1500 missions and attended about 1000 patients during the daylight operations. There is a clear indication of between 400 and 500 patients per year located within the 3,500 square miles who will now benefit from the night HEMS.</p>
+
+                            <p>In his opening address, Adrian Bell, CEO of the charity, said “Our focus is on getting our highly-skilled teams with their time-critical interventions, to the patient as quickly and safely as possible, not only to save life but also to improve the quality of survival”. He went on to thank the public for their generous support and then to refer to the £250,000 pledge and major support from Lions Clubs in the south-east.</p>
+
+                            <p>The new MD902 Explorer helicopter was on view and various crew members were available to demonstrate some of their specialised equipment including the night vision goggles and helmets for which our Lions Appeal had helped finance.</p>
+
+                            <p>Lions Clubs across Kent, Surrey and Sussex will be continuing to raise funds for additional essential specialist equipment to enhance the night flying operations. Lions  Clubs are dedicated to assisting their communities and to helping to save lives.</p>
+                            
+                        		<p>This year Woking Lions have donated a further £3033 to the fund following their Easter Eggstravaganza event.</p>                            
+                        </div>
+                    </div>
+                </div> <!--End panel-->
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapse-5" data-toggle="collapse" data-parent="#accordion">
+                                Woking Lions support LinkAble
+                            </a>
+                        </div> <!--End panel-title-->
+                    </div><!--panel-title-->
+                    <div id="collapse-5" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <p>Woking Lions Club President Roger Chamberlain, wife Jacquie with Paralympic gold medalist Davis Weir at the opening of LinkAbles refurbished premises. David was the official guest. The Woking Lions held a concert to raise funds for LinkAble.  The Woking Lions have pledged also be to raise further funds for LinkAble.</p>
+                                </div>
+                                <div class="col-sm-4">
+                                    <img class="img-responsive" src="images/LinkAble1.jpg" alt="LinkAble Presentation" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--End panel-->
+                <!-- Waitrose Weybridge Community Matters -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapse-6" data-toggle="collapse" data-parent="#accordion">
+                                Weybridge Waitrose Customers donate to the Woking Lions Club
+                            </a>
+                        </div> <!--End panel-title-->
+                    </div><!--panel-title-->
+                    <div id="collapse-6" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <p>Waitrose Weybridge presents a cheque of £672.00 to the Woking Lions Club to help with the more needy population of our community. In the picture from l to r, Waitrose’s Simon Fozard, Ben Arnold, Gillian Dunn, Robert Novarro, assistant store manager, Lions president Roger Chamberlain and Emma Watson. The latest presentation is one of the many commitments the Waitrose organization have made to the Lions. These donations have supported the club in being above to organize and finance the annual Christmas day lunch for the lonely and elderly, the delivery of Christmas parcels to the needy, the support for the Air Ambulance and many more deserving and worthwhile causes that makes our community a better place to live in. The Lions are eternally grateful for Waitrose support!</p>
+                                </div>
+                                <div class="col-sm-4">
+                                    <img class="img-responsive" src="images/WaitroseCommunityMatters.jpg" alt="Waitrose presentation" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--End panel-->
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapse-7" data-toggle="collapse" data-parent="#accordion">
+                                Woking Lions and Rotary support Woking Community Hospital
+                            </a>
+                        </div> <!--End panel-title-->
+                    </div><!--panel-title-->
+                    <div id="collapse-7" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <p>The Friends of Woking Community Hospital represented by Jon Allan Chairman, Laura Chatwin President and Peter Spreckley Treasurer unveiled a plaque in the new Wet Room on Bradley Ward. In the picture from left to right is Lion Brian White, Rotary President Hugh Shaw, Hospital representative Laura Chatwin, Lion Martine Yound, Lion president Roger Chamberlain and Chairman of the Friends of Woking Community Hospital, Jon Allan Both Woking Rotary Club and Woking Lions Club gave donations to the FWCH to  enable those rehabilitating from all sorts of neurodisability to wash in a modern Wet Room and for them the previous arrangement of a hoist and bath is replaced by a shower they can use with or without assistance.</p>
+                                    <p>Chairman of the Friends Jon Allan thanked everyone for their donations. The project is now completed and in regular use, the plaque commemorates the contributions made.</p>
+                                </div>
+                                <div class="col-sm-4">
+                                    <img class="img-responsive" src="images/WokingHospicePresentation.jpg" alt="Woking Hospice presentation" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--End panel-->
+
+            </div>
+        </section>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <hr />
+        <div class="container text-center">
+            <ul class="list-inline">
+                <li><a href="https://twitter.com/WokingLions">Twitter</a></li>
+                <li><a href="https://www.facebook.com/groups/wokinglions">Facebook</a></li>
+            </ul>
+            <p>&copy; Copyright @ 2016 woking lions club.<br />All rights reserved. Charity Number 293883.</p>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

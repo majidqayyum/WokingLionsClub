@@ -1,0 +1,4 @@
+WokingLions.sln
+*.sln
+.vs/config/applicationhost.config
+*.suo
